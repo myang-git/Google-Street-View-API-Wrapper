@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966FB44D1493EA6E00CE9EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB44C1493EA6E00CE9EA6 /* Foundation.framework */; };
+		966FB4531493EA6E00CE9EA6 /* GoogleStreetViewAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FB4521493EA6E00CE9EA6 /* GoogleStreetViewAPI.m */; };
+		966FB45A1493EA8B00CE9EA6 /* GoogleStreetViewAPIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 966FB4591493EA8B00CE9EA6 /* GoogleStreetViewAPIDelegate.h */; };
+		966FB45C1493EABC00CE9EA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB45B1493EABC00CE9EA6 /* UIKit.framework */; };
+		966FB47B1493F8FA00CE9EA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB45B1493EABC00CE9EA6 /* UIKit.framework */; };
+		966FB47C1493F8FA00CE9EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB44C1493EA6E00CE9EA6 /* Foundation.framework */; };
+		966FB47E1493F8FA00CE9EA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB47D1493F8FA00CE9EA6 /* CoreGraphics.framework */; };
+		966FB4841493F8FB00CE9EA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 966FB4821493F8FB00CE9EA6 /* InfoPlist.strings */; };
+		966FB4861493F8FB00CE9EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FB4851493F8FB00CE9EA6 /* main.m */; };
+		966FB48A1493F8FB00CE9EA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FB4891493F8FB00CE9EA6 /* AppDelegate.m */; };
+		966FB48D1493F8FB00CE9EA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FB48C1493F8FB00CE9EA6 /* ViewController.m */; };
+		966FB4901493F8FB00CE9EA6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966FB48E1493F8FB00CE9EA6 /* ViewController.xib */; };
+		966FB4961493F90F00CE9EA6 /* libGoogleStreetViewAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 966FB4491493EA6E00CE9EA6 /* libGoogleStreetViewAPI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966FB4941493F90900CE9EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FB4401493EA6D00CE9EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966FB4481493EA6E00CE9EA6;
+			remoteInfo = GoogleStreetViewAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		966FB4491493EA6E00CE9EA6 /* libGoogleStreetViewAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleStreetViewAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		966FB44C1493EA6E00CE9EA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		966FB4501493EA6E00CE9EA6 /* GoogleStreetViewAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleStreetViewAPI-Prefix.pch"; sourceTree = "<group>"; };
+		966FB4511493EA6E00CE9EA6 /* GoogleStreetViewAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleStreetViewAPI.h; sourceTree = "<group>"; };
+		966FB4521493EA6E00CE9EA6 /* GoogleStreetViewAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleStreetViewAPI.m; sourceTree = "<group>"; };
+		966FB4591493EA8B00CE9EA6 /* GoogleStreetViewAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleStreetViewAPIDelegate.h; sourceTree = "<group>"; };
+		966FB45B1493EABC00CE9EA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		966FB4791493F8FA00CE9EA6 /* TestGoogleStreetViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGoogleStreetViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966FB47D1493F8FA00CE9EA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		966FB4811493F8FB00CE9EA6 /* TestGoogleStreetViewApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGoogleStreetViewApp-Info.plist"; sourceTree = "<group>"; };
+		966FB4831493F8FB00CE9EA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		966FB4851493F8FB00CE9EA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		966FB4871493F8FB00CE9EA6 /* TestGoogleStreetViewApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGoogleStreetViewApp-Prefix.pch"; sourceTree = "<group>"; };
+		966FB4881493F8FB00CE9EA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		966FB4891493F8FB00CE9EA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		966FB48B1493F8FB00CE9EA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		966FB48C1493F8FB00CE9EA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		966FB48F1493F8FB00CE9EA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966FB4461493EA6E00CE9EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB45C1493EABC00CE9EA6 /* UIKit.framework in Frameworks */,
+				966FB44D1493EA6E00CE9EA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966FB4761493F8FA00CE9EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB4961493F90F00CE9EA6 /* libGoogleStreetViewAPI.a in Frameworks */,
+				966FB47B1493F8FA00CE9EA6 /* UIKit.framework in Frameworks */,
+				966FB47C1493F8FA00CE9EA6 /* Foundation.framework in Frameworks */,
+				966FB47E1493F8FA00CE9EA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966FB43E1493EA6D00CE9EA6 = {
+			isa = PBXGroup;
+			children = (
+				966FB44E1493EA6E00CE9EA6 /* GoogleStreetViewAPI */,
+				966FB47F1493F8FA00CE9EA6 /* TestGoogleStreetViewApp */,
+				966FB44B1493EA6E00CE9EA6 /* Frameworks */,
+				966FB44A1493EA6E00CE9EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966FB44A1493EA6E00CE9EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FB4491493EA6E00CE9EA6 /* libGoogleStreetViewAPI.a */,
+				966FB4791493F8FA00CE9EA6 /* TestGoogleStreetViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FB44B1493EA6E00CE9EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				966FB45B1493EABC00CE9EA6 /* UIKit.framework */,
+				966FB44C1493EA6E00CE9EA6 /* Foundation.framework */,
+				966FB47D1493F8FA00CE9EA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966FB44E1493EA6E00CE9EA6 /* GoogleStreetViewAPI */ = {
+			isa = PBXGroup;
+			children = (
+				966FB4511493EA6E00CE9EA6 /* GoogleStreetViewAPI.h */,
+				966FB4521493EA6E00CE9EA6 /* GoogleStreetViewAPI.m */,
+				966FB4591493EA8B00CE9EA6 /* GoogleStreetViewAPIDelegate.h */,
+				966FB44F1493EA6E00CE9EA6 /* Supporting Files */,
+			);
+			path = GoogleStreetViewAPI;
+			sourceTree = "<group>";
+		};
+		966FB44F1493EA6E00CE9EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966FB4501493EA6E00CE9EA6 /* GoogleStreetViewAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		966FB47F1493F8FA00CE9EA6 /* TestGoogleStreetViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				966FB4881493F8FB00CE9EA6 /* AppDelegate.h */,
+				966FB4891493F8FB00CE9EA6 /* AppDelegate.m */,
+				966FB48B1493F8FB00CE9EA6 /* ViewController.h */,
+				966FB48C1493F8FB00CE9EA6 /* ViewController.m */,
+				966FB48E1493F8FB00CE9EA6 /* ViewController.xib */,
+				966FB4801493F8FB00CE9EA6 /* Supporting Files */,
+			);
+			path = TestGoogleStreetViewApp;
+			sourceTree = "<group>";
+		};
+		966FB4801493F8FB00CE9EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966FB4811493F8FB00CE9EA6 /* TestGoogleStreetViewApp-Info.plist */,
+				966FB4821493F8FB00CE9EA6 /* InfoPlist.strings */,
+				966FB4851493F8FB00CE9EA6 /* main.m */,
+				966FB4871493F8FB00CE9EA6 /* TestGoogleStreetViewApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		966FB4471493EA6E00CE9EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB45A1493EA8B00CE9EA6 /* GoogleStreetViewAPIDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		966FB4481493EA6E00CE9EA6 /* GoogleStreetViewAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966FB4561493EA6E00CE9EA6 /* Build configuration list for PBXNativeTarget "GoogleStreetViewAPI" */;
+			buildPhases = (
+				966FB4451493EA6E00CE9EA6 /* Sources */,
+				966FB4461493EA6E00CE9EA6 /* Frameworks */,
+				966FB4471493EA6E00CE9EA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleStreetViewAPI;
+			productName = GoogleStreetViewAPI;
+			productReference = 966FB4491493EA6E00CE9EA6 /* libGoogleStreetViewAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		966FB4781493F8FA00CE9EA6 /* TestGoogleStreetViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966FB4911493F8FB00CE9EA6 /* Build configuration list for PBXNativeTarget "TestGoogleStreetViewApp" */;
+			buildPhases = (
+				966FB4751493F8FA00CE9EA6 /* Sources */,
+				966FB4761493F8FA00CE9EA6 /* Frameworks */,
+				966FB4771493F8FA00CE9EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966FB4951493F90900CE9EA6 /* PBXTargetDependency */,
+			);
+			name = TestGoogleStreetViewApp;
+			productName = TestGoogleStreetViewApp;
+			productReference = 966FB4791493F8FA00CE9EA6 /* TestGoogleStreetViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966FB4401493EA6D00CE9EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "North25 Software LLC";
+			};
+			buildConfigurationList = 966FB4431493EA6D00CE9EA6 /* Build configuration list for PBXProject "GoogleStreetViewAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 966FB43E1493EA6D00CE9EA6;
+			productRefGroup = 966FB44A1493EA6E00CE9EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966FB4481493EA6E00CE9EA6 /* GoogleStreetViewAPI */,
+				966FB4781493F8FA00CE9EA6 /* TestGoogleStreetViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966FB4771493F8FA00CE9EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB4841493F8FB00CE9EA6 /* InfoPlist.strings in Resources */,
+				966FB4901493F8FB00CE9EA6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966FB4451493EA6E00CE9EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB4531493EA6E00CE9EA6 /* GoogleStreetViewAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966FB4751493F8FA00CE9EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB4861493F8FB00CE9EA6 /* main.m in Sources */,
+				966FB48A1493F8FB00CE9EA6 /* AppDelegate.m in Sources */,
+				966FB48D1493F8FB00CE9EA6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966FB4951493F90900CE9EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966FB4481493EA6E00CE9EA6 /* GoogleStreetViewAPI */;
+			targetProxy = 966FB4941493F90900CE9EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		966FB4821493F8FB00CE9EA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966FB4831493F8FB00CE9EA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		966FB48E1493F8FB00CE9EA6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966FB48F1493F8FB00CE9EA6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966FB4541493EA6E00CE9EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		966FB4551493EA6E00CE9EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966FB4571493EA6E00CE9EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GoogleStreetViewAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStreetViewAPI/GoogleStreetViewAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		966FB4581493EA6E00CE9EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GoogleStreetViewAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleStreetViewAPI/GoogleStreetViewAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		966FB4921493F8FB00CE9EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGoogleStreetViewApp/TestGoogleStreetViewApp-Prefix.pch";
+				INFOPLIST_FILE = "TestGoogleStreetViewApp/TestGoogleStreetViewApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		966FB4931493F8FB00CE9EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGoogleStreetViewApp/TestGoogleStreetViewApp-Prefix.pch";
+				INFOPLIST_FILE = "TestGoogleStreetViewApp/TestGoogleStreetViewApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966FB4431493EA6D00CE9EA6 /* Build configuration list for PBXProject "GoogleStreetViewAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966FB4541493EA6E00CE9EA6 /* Debug */,
+				966FB4551493EA6E00CE9EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966FB4561493EA6E00CE9EA6 /* Build configuration list for PBXNativeTarget "GoogleStreetViewAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966FB4571493EA6E00CE9EA6 /* Debug */,
+				966FB4581493EA6E00CE9EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		966FB4911493F8FB00CE9EA6 /* Build configuration list for PBXNativeTarget "TestGoogleStreetViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966FB4921493F8FB00CE9EA6 /* Debug */,
+				966FB4931493F8FB00CE9EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966FB4401493EA6D00CE9EA6 /* Project object */;
+}
