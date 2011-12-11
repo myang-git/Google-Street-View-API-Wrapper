@@ -30,6 +30,6 @@ Here is the typical workflow:
     
     5. The delegate method api:didReturnStreetViewImage: will be called when the image has been successfully downloaded. Otherwise api:failedReturnStreetViewImageWithError: will be called
 
-The project has an working example TestGoogleStreetViewApp for iPhone. You can take a look.
+The project has an working example TestGoogleStreetViewApp for iPhone. Please take a look as well.
 
 Enjoy!
